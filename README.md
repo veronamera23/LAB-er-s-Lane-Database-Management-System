@@ -2,7 +2,7 @@
 
 **Laber's Lane Laboratory Management System**
 
-    Laber's Lane is a web-based Laboratory Management System developed in 2024 using PHP and MySQL, designed exclusively for the context of UPV (University of the Philippines Visayas) laboratories. It was created as an academic project in partial fulfillment of the course CMSC 127: Database Systems.
+Laber's Lane is a web-based Laboratory Management System developed in 2024 using PHP and MySQL, designed exclusively for the context of UPV (University of the Philippines Visayas) laboratories. It was created as an academic project in partial fulfillment of the course CMSC 127: Database Systems.
 
 _Author's Note: This system is not officially integrated into UPV operations. It was developed solely for academic purposes._
 

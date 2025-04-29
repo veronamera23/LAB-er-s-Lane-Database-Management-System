@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ececec; 
+}
+
+.WebHeadAll, .WebHead {
+    background-color: #8B0000; 
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.Nav {
+    background-color: #8B0000; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px; 
+    font-size: 2em;
+}
+
+.Nav a:first-child {
+    margin-left: 0; 
+}
+
+.Nav a:last-child {
+    margin-right: 0; 
+}
+
+.content {
+    display: block;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 50px; 
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 13.5%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    border: #5C001E solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px; 
+}
+
+body::after {
+    content: "";
+    display: block;
+    height: 50px; 
+    background-color: #8B0000; 
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.ViewLabs, .Add, .Remove, .Update {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.ViewLabs h2, .Add h2, .Remove h2, .Update h2 {
+    color: maroon;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], select, input[type="date"], input[type="time"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #8B0000; /* Maroon */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #5C001E; /* Darker maroon on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.WebHead {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.Nav {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.ViewLabs {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.ViewLabs h2 {
+    color: maroon;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.scheduler {
+    padding: 40px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.scheduler::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #8B0000;
+    z-index: 1;
+}
+
+.scheduler h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.scheduler label {
+    display: block;
+    font-size: 1.1em;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.scheduler select,
+.scheduler input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.scheduler select {
+    margin-top: 5px;
+}
+
+.scheduler input[type="submit"] {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scheduler input[type="submit"]:hover {
+    background-color: #5C001E;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
